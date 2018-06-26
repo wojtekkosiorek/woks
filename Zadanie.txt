@@ -1,0 +1,13 @@
+Utworzyć repozytorium git - owe zgodnie z tutorialem Łukasza 
+Stworzone repozytorium powinno mieć odzwierciedlone w zdalnym serwisie (GitHub, bitbucket, etc.) - tam zadanie będzie sprawdzone
+
+utworzyć projekt mavenowy jak na szkoleniu
+
+zaimportować projekt do intellij
+
+stworzyć klasę Invoice 
+z polami na id oraz listą elementów String odzwierciedlajacych elementy na fakturze
+
+stworzyc metode main w innej klasie i stworzyc liste elementow invoice i dodac kilka przykladowych invoicow.
+
+Wypisac na ekrac cala liste elementow wraz z produktami na fakturze.
