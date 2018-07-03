@@ -3,9 +3,7 @@ package com.procountor;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Hello world!
- */
+
 public class Main {
     public static void main(String[] args) {
 
@@ -23,7 +21,7 @@ public class Main {
 
         //Wypisanie listy wszystkich produktów
         System.out.println("=============================");
-        System.out.println("All products in the List: " + products.size());
+        System.out.println("All products at the List: " + products.size());
         System.out.println("=============================");
         products.forEach(System.out::println);
         System.out.println();
@@ -35,6 +33,7 @@ public class Main {
         invoice1.add(product2);
         invoice2.add(product3);
         invoice2.add(product4);
+        invoice2.add(product1);
 
         Invoice newInvoice1 = new Invoice("1", invoice1);
         Invoice newInvoice2 = new Invoice("2", invoice2);
@@ -54,7 +53,7 @@ public class Main {
 
     private static void printInvoice(Invoice i) {
         System.out.println("Invoice No. : " +i.id);
-        System.out.println("# Products in the invoice: " + i.elements.size());
+        System.out.println("# Products amount: " + i.elements.size());
         i.elements.forEach(System.out::println);
         System.out.println();
         System.out.println();
