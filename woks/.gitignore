@@ -1,9 +1,6 @@
 *.log
 .classpath
 .project
-bin
-bin*
-${base_path}
 .checkstyle
 target
 .idea

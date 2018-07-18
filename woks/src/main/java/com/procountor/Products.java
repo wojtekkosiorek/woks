@@ -50,10 +50,12 @@ public class Products {
 
     @Override
     public String toString() {
-        return name +
-                " Quantity:" + quantity +
-                " Unit price:" + price + "$ " +
-                " || Product SUM " + "= " + price.multiply(quantity)+ "$" + "\n";
+
+            return " Product : " + name +
+                    " Quantity: " + quantity +
+                    " Unit price: " + price + "$ " +
+                    " SUM " + "= " + price.multiply(quantity) + "$ ";
+
 
     }
 }

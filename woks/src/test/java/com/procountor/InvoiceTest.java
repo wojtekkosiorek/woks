@@ -14,7 +14,7 @@ public class InvoiceTest {
 
     public void testCalculateTotalCost() {
         List<Products> invoice_test = new ArrayList<Products>();
-        invoice_test.add(new Products("Test 2",new BigDecimal("2"), new BigDecimal("2")));
+        invoice_test.add(new Products("Test 2", new BigDecimal("2"), new BigDecimal("2")));
         invoice_test.add(new Products("Test 2", new BigDecimal("1.5"), new BigDecimal("1.5")));
 
         Invoice invoice = new Invoice("invoice_test1", invoice_test);
