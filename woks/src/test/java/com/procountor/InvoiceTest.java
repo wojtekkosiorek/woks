@@ -13,18 +13,18 @@ public class InvoiceTest {
 
     @Test
     public void testCalculateTotalCost() {
-        //Invoice List
+        //Test Invoice List
         List<Products> invoice_test = new ArrayList<Products>();
         List<Products> invoice_test_zero = new ArrayList<Products>();
 
 
-        //Product - invoice
+        //Test Product at invoice
         invoice_test.add(new Products("Test 1", new BigDecimal("2"), new BigDecimal("2")));
         invoice_test.add(new Products("Test 2", new BigDecimal("1.5"), new BigDecimal("1.5")));
         invoice_test_zero.add(new Products("Test 3", new BigDecimal("0"), new BigDecimal("1")));
         invoice_test_zero.add(new Products("Test 4", new BigDecimal("0"), new BigDecimal("-1")));
 
-        //Invoice
+        //Test Invoice
         Invoice invoice = new Invoice("invoice_test", invoice_test);
         Invoice invoice_zero = new Invoice("invoice_test_zero", invoice_test_zero);
 
