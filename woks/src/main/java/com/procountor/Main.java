@@ -2,14 +2,13 @@ package com.procountor;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 
 public class Main {
     public static void main(String[] args) {
 
-        //Lista  produktów
+        //Lista  produkt-faktura
         List<Products> invoice1 = new ArrayList<Products>();
         invoice1.add(new Products("Water",new BigDecimal("1.05"), new BigDecimal("1")));
         invoice1.add(new Products("Milk", new BigDecimal("2.99"), new BigDecimal("3")));

@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab8bb9a4-8a5d-42d9-a3a6-e0e3ff37c3f2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/woks/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/woks/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/woks/src/main/java/com/procountor/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/woks/src/main/java/com/procountor/Invoice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/woks/src/main/java/com/procountor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/woks/src/main/java/com/procountor/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/woks/src/main/java/com/procountor/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/woks/src/main/java/com/procountor/Products.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/woks/src/test/java/com/procountor/InvoiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/woks/src/test/java/com/procountor/InvoiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/woks/target/test-classes/com/procountor/AppTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/woks/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +27,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/woks/src/main/java/com/procountor/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="476">
+              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,7 +39,7 @@
       <file leaf-file-name="Invoice.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/woks/src/main/java/com/procountor/Invoice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="799">
               <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
@@ -50,7 +48,7 @@
       <file leaf-file-name="Products.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/woks/src/main/java/com/procountor/Products.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="833">
               <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
             </state>
           </provider>
@@ -60,9 +58,10 @@
         <entry file="file://$PROJECT_DIR$/woks/src/test/java/com/procountor/InvoiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="27" column="68" lean-forward="true" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#322#332#0" expanded="true" />
+                <element signature="e#415#425#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,9 +76,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/woks/.gitignore" />
-        <option value="$PROJECT_DIR$/woks/src/main/java/com/procountor/Main.java" />
         <option value="$PROJECT_DIR$/woks/src/main/java/com/procountor/Invoice.java" />
         <option value="$PROJECT_DIR$/woks/src/main/java/com/procountor/Products.java" />
+        <option value="$PROJECT_DIR$/woks/src/main/java/com/procountor/Main.java" />
         <option value="$PROJECT_DIR$/woks/src/test/java/com/procountor/InvoiceTest.java" />
       </list>
     </option>
@@ -105,11 +104,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1932" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -197,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.InvoiceTest.testCalculateTotalCost">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.procountor.Main" />
       <module name="woks" />
@@ -211,6 +209,29 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="InvoiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="woks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.procountor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.procountor" />
+      <option name="MAIN_CLASS_NAME" value="com.procountor.InvoiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="InvoiceTest.testCalculateTotalCost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="woks" />
@@ -276,11 +297,13 @@
     <list>
       <item itemvalue="JUnit.InvoiceTest.testCalculateTotalCost" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.InvoiceTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.InvoiceTest.testCalculateTotalCost" />
+        <item itemvalue="JUnit.InvoiceTest" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -309,17 +332,52 @@
       <option name="project" value="LOCAL" />
       <updated>1531900599897</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New commit1">
+      <created>1531904968926</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531904968926</updated>
+    </task>
+    <task id="LOCAL-00004" summary="New commit1">
+      <created>1531905018210</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531905018210</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InvoiceTest_testCalculateTotalCost - 2018.07.18 at 09h 51m 57s.xml">
+    <history-entry file="InvoiceTest_testCalculateTotalCost - 2018.07.18 at 12h 03m 30s.xml">
       <configuration name="InvoiceTest.testCalculateTotalCost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvoiceTest_testCalculateTotalCost - 2018.07.18 at 09h 52m 20s.xml">
+    <history-entry file="InvoiceTest_testCalculateTotalCost - 2018.07.18 at 12h 08m 58s.xml">
       <configuration name="InvoiceTest.testCalculateTotalCost" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvoiceTest_testCalculateTotalCost - 2018.07.18 at 10h 12m 08s.xml">
+    <history-entry file="InvoiceTest_testCalculateTotalCost - 2018.07.18 at 12h 09m 29s.xml">
+      <configuration name="InvoiceTest.testCalculateTotalCost" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvoiceTest_testCalculateTotalCost - 2018.07.18 at 12h 09m 45s.xml">
+      <configuration name="InvoiceTest.testCalculateTotalCost" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvoiceTest_testCalculateTotalCost - 2018.07.18 at 12h 12m 43s.xml">
+      <configuration name="InvoiceTest.testCalculateTotalCost" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvoiceTest_testCalculateTotalCost - 2018.07.18 at 12h 13m 27s.xml">
+      <configuration name="InvoiceTest.testCalculateTotalCost" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvoiceTest_testCalculateTotalCost - 2018.07.18 at 12h 15m 47s.xml">
+      <configuration name="InvoiceTest.testCalculateTotalCost" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvoiceTest_testCalculateTotalCost - 2018.07.18 at 12h 16m 07s.xml">
+      <configuration name="InvoiceTest.testCalculateTotalCost" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvoiceTest_testCalculateTotalCost - 2018.07.18 at 12h 16m 37s.xml">
+      <configuration name="InvoiceTest.testCalculateTotalCost" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvoiceTest_testCalculateTotalCost - 2018.07.18 at 12h 16m 58s.xml">
       <configuration name="InvoiceTest.testCalculateTotalCost" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -333,23 +391,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.141258" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.14155982" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33224043" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900432" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25320512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -407,6 +465,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/woks/src/main/java/com/procountor/Products.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woks/src/main/java/com/procountor/Invoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/woks/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -414,33 +486,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/woks/src/main/java/com/procountor/Invoice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/woks/src/main/java/com/procountor/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/woks/src/main/java/com/procountor/Products.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        <state relative-caret-position="476">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/woks/src/test/java/com/procountor/InvoiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="27" column="68" lean-forward="true" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#322#332#0" expanded="true" />
+            <element signature="e#415#425#0" expanded="true" />
           </folding>
         </state>
       </provider>
