@@ -42,8 +42,7 @@ public class Invoice {
 
     @Override
     public String toString() {
-        return "[ Invoice " + "id: " + id + " ]" + "\n" + elements + "\n" + "[ TOTAL INVOICE SUM: " + totalCost() + "$ ]"+ "\n"
-                ;
+        return "\n"+"** Invoice " + " #" + id + " ** " + "\n" + elements + "\n" + "TOTAL INVOICE SUM: " + totalCost() + "$ "+ "\n";
     }
 }
 

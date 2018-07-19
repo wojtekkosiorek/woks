@@ -27,7 +27,11 @@ public class Main {
         System.out.println("Invoice list:");
         System.out.println("=============");
         System.out.println();
-        allinvoices.forEach(System.out::println);
+
+        System.out.println(allinvoices.toString()
+                .replace("[", "")
+                .replace("]", "")
+                .replace(",", ""));
 
     }
 

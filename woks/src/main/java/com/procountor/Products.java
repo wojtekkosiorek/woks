@@ -27,7 +27,6 @@ public class Products {
     }
 
 
-
     public BigDecimal getPrice() {
 
         return price;
@@ -51,10 +50,9 @@ public class Products {
     @Override
     public String toString() {
 
-            return " Product : " + name +
-                    " Quantity: " + quantity +
-                    " Unit price: " + price + "$ " +
-                    " SUM " + "= " + price.multiply(quantity) + "$ ";
+        return "\n" + name + "| Quantity: " + quantity + "| " +
+                " Unit price: " + price + "$ | " +
+                "SUM " + price.multiply(quantity) + "$ | ";
 
 
     }
