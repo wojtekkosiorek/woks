@@ -50,7 +50,8 @@ public class Products {
     @Override
     public String toString() {
 
-        return "\n" + name + "| Quantity: " + quantity + "| " +
+
+        return "\n" + "> "+ name.toUpperCase() + "| Quantity: " + quantity + "| " +
                 " Unit price: " + price + "$ | " +
                 "SUM " + price.multiply(quantity) + "$ | ";
 

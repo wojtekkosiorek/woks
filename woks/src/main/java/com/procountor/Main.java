@@ -23,15 +23,18 @@ public class Main {
         allinvoices.add(new Invoice("1", invoice1));
         allinvoices.add(new Invoice("2", invoice2));
 
+
+
         System.out.println("=============");
         System.out.println("Invoice list:");
         System.out.println("=============");
         System.out.println();
-
         System.out.println(allinvoices.toString()
                 .replace("[", "")
                 .replace("]", "")
                 .replace(",", ""));
+
+        System.out.println("==== END ====");
 
     }
 

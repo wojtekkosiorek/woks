@@ -40,9 +40,12 @@ public class Invoice {
                 .reduce(BigDecimal.ZERO, BigDecimal::add);
     }
 
+
     @Override
     public String toString() {
-        return "\n"+"** Invoice " + " #" + id + " ** " + "\n" + elements + "\n" + "TOTAL INVOICE SUM: " + totalCost() + "$ "+ "\n";
+        return "\n"+"** Invoice " + " #" + id + " :" + "\n"
+                + elements + "\n"
+                +  "TOTAL INVOICE SUM: " + totalCost() + "$ "+ "\n";
     }
 }
 
